@@ -1,6 +1,8 @@
-# How to Add html and apply CSS  in Angular .ts file without using .css and .html file
 
-## 3. Create  angular application as above but instead of using app.component.html and app.component.css file eparately add its contents in inline format inside app.component.ts file. 
+## 5. C Create angular application which will demonstrate the concept of string interpolation. 
 
 Follow steps as above application.
-Delete the .css and .html file, after replace templteUrls to template and styleUrls to styles and write your html as ts file , for refrence see src/app/app.component.ts file.
+To demonstrate the string interpolation we can create one characteristics in class as
+“Name” which should be assigned to some string as
+Name = “Marvellous”
+Now use this characteristics in html file using the concept of string interpolation as {{Name}}
